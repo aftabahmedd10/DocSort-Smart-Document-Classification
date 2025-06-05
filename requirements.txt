@@ -1,0 +1,4 @@
+fastapi
+streamlit
+euriai
+python-dotenv
