@@ -1,33 +1,48 @@
-# DocuSort
+# 📄 DocSort
 
-**DocuSort** is a document classification and extraction tool designed to help users upload documents (PDF, JPG, PNG), automatically identify the document type, and extract relevant text data. The system provides a user-friendly interface for uploading files, viewing classification results with confidence scores, and exporting the extracted data.
-
----
-
-## Features
-
-- Upload documents via drag-and-drop or file selection
-- Automatic document type classification with confidence scores
-- Text extraction from uploaded documents
-- Export extracted data
-- Minimalistic UI with easy navigation
+**DocSort** is a powerful document classification and extraction tool designed to help users effortlessly upload documents (PDF, JPG, PNG), automatically identify their type, and extract relevant text data. The intuitive interface makes it easy to upload files, view classification results with confidence scores, and export the extracted information.
 
 ---
 
-## Technologies Used
+## 🚀 Features
 
-- Python
-- Flask (Backend API)
-- Tesseract OCR (for text extraction)
-- scikit-learn (for document classification)
-- Streamlit (for frontend interface)
-- HTML/CSS/JavaScript (UI components)
+✨ Upload documents via drag-and-drop or file selection  
+🔍 Automatic document type classification with confidence scores  
+📝 Text extraction from uploaded documents  
+📤 Export extracted data seamlessly  
+🎨 Minimalistic UI with easy navigation
 
 ---
+
+## 🛠️ Technologies Used
+
+- Python  
+- Tesseract OCR (for text extraction)  
+- OpenAI - gpt-4.1-nano (for document text classification)  
+- Streamlit (for frontend interface)  
+
+
+---
+
+## ⚙️ Prerequisites
+
+- Python 3.10+  
+- pip (Python package installer)
+
+---
+
+## 📝 Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone &lt;your-repo-url&gt;
+cd &lt;your-repo-directory&gt;
+
 
 ## Prerequisites
 
-- Python 3.8 or higher
+- Python 3.10
 - pip (Python package installer)
 
 ---
@@ -62,7 +77,7 @@ Add Tesseract to your system PATH
 sudo apt-get install tesseract-ocr
 ```
 
--MacOS
+- MacOS
 ```bash
 brew install tesseract
 ```
@@ -71,6 +86,12 @@ brew install tesseract
 ```bash
 streamlit run app.py
 ```
+
+### 🖼️ Example Output
+Below is an example of the uploaded document, classification result
+
+![Sample Output Document](outputs/output1.png)
+![Sample Output Document](outputs/output2.png)
 
 ### Usage
 1. Launch the app with the command above.

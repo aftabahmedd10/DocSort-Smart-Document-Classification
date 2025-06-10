@@ -27,7 +27,7 @@ uploaded_file = st.file_uploader("Choose a file", type=["pdf", "jpg", "jpeg", "p
 def display_file(file):
     file_type = file.type
     if "image" in file_type:
-        image = Image.open(file)
+        image = Image.open(file).resize((500, 300))
         st.image(image, caption="Uploaded Document", use_container_width=False)
     elif file_type == "application/pdf":
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:

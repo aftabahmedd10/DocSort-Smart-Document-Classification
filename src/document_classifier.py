@@ -40,7 +40,7 @@ def classify_text(text):
     
     client = EuriaiClient(
         api_key=api_key,
-        model="deepseek-r1-distill-llama-70b",
+        model="gpt-4.1-nano",
     )
 
     response = client.generate_completion(
