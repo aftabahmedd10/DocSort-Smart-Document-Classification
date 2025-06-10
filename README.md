@@ -34,11 +34,10 @@
 ## 📝 Setup Instructions
 
 ### 1. Clone the repository
-
 ```bash
-git clone &lt;your-repo-url&gt;
-cd &lt;your-repo-directory&gt;
-
+git clone <repo url>
+cd <repo name>
+```
 
 ## Prerequisites
 
