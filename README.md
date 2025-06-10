@@ -33,13 +33,6 @@
 
 ## 📝 Setup Instructions
 
-### 1. Clone the repository
-
-```bash
-git clone <repo url>
-cd <repo name>
-```
-
 ## Prerequisites
 
 - Python 3.10
@@ -47,9 +40,12 @@ cd <repo name>
 
 ---
 
-## Setup Instructions
-
 ### 1. Clone the repository
+
+```bash
+git clone <repo url>
+cd <repo name>
+```
 
 ### 2. Create virtual enviornment
 
